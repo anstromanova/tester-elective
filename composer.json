@@ -14,6 +14,19 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+  "autoload": {
+    "psr-4": {
+      "anstromanova\\tester-elective\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "anstromanova\\tester-elective\\tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+},
     "scripts": {
          "test": "./vendor/bin/phpunit"
     }

@@ -1,0 +1,17 @@
+{
+    "name": "anstromanova/tester-elective",
+    "description": "tester elective project",
+    "type": "bsd",
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "license": "bsd",
+    "authors": [
+        {
+            "name": "nst.roma",
+            "email": "anst.romanova@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

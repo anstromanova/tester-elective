@@ -1,5 +1,5 @@
 <?php
-namespace anstromanova\testerelective\models\;
+namespace anstromanova\testerelective\models;
 
 class ContactForm 
 {

@@ -11,6 +11,16 @@ class ContactFormTest extends TestCase
     {
         $foo = new ContactForm();
         $this->assertObjectHasAttribute('name', $foo);
+        $this->assertObjectHasAttribute('phone', $foo);
+        $this->assertObjectHasAttribute('message', $foo);
+
+        $foo->name = 'nastya';
+        $foo->message = '7-777-77-77';
+        $foo->phone = 'help';
+
+
+        $this->assertTrue($foo->validate());
+
     }
 }
 
